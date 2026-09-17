@@ -1,0 +1,6 @@
+streamlit>=1.32
+pandas>=1.5
+numpy>=1.23
+# Preferred but optional: ml_backend.py falls back to a pure-NumPy
+# implementation automatically if scikit-learn can't be installed/imported.
+scikit-learn>=1.2

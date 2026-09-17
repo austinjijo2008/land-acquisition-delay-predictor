@@ -1,0 +1,244 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.642,
+    "confusion_matrix": [
+      [
+        286,
+        187
+      ],
+      [
+        171,
+        356
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.6258205689277899,
+        "recall": 0.6046511627906976,
+        "f1-score": 0.6150537634408602,
+        "support": 473
+      },
+      "1": {
+        "precision": 0.6556169429097606,
+        "recall": 0.6755218216318786,
+        "f1-score": 0.6654205607476635,
+        "support": 527
+      },
+      "accuracy": 0.642,
+      "macro avg": {
+        "precision": 0.6407187559187753,
+        "recall": 0.6400864922112881,
+        "f1-score": 0.6402371620942618,
+        "support": 1000
+      },
+      "weighted avg": {
+        "precision": 0.6415232580162885,
+        "recall": 0.642,
+        "f1-score": 0.6415970656215455,
+        "support": 1000
+      }
+    }
+  },
+  "decision_tree": {
+    "accuracy": 0.562,
+    "confusion_matrix": [
+      [
+        268,
+        205
+      ],
+      [
+        233,
+        294
+      ]
+    ]
+  },
+  "random_forest": {
+    "accuracy": 0.619,
+    "confusion_matrix": [
+      [
+        263,
+        210
+      ],
+      [
+        171,
+        356
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.6059907834101382,
+        "recall": 0.5560253699788583,
+        "f1-score": 0.5799338478500552,
+        "support": 473
+      },
+      "1": {
+        "precision": 0.6289752650176679,
+        "recall": 0.6755218216318786,
+        "f1-score": 0.6514181152790485,
+        "support": 527
+      },
+      "accuracy": 0.619,
+      "macro avg": {
+        "precision": 0.6174830242139031,
+        "recall": 0.6157735958053685,
+        "f1-score": 0.6156759815645518,
+        "support": 1000
+      },
+      "weighted avg": {
+        "precision": 0.6181036052173062,
+        "recall": 0.619,
+        "f1-score": 0.6176060567851347,
+        "support": 1000
+      }
+    },
+    "feature_importance": [
+      {
+        "Feature": "Approval_Days",
+        "Importance": 0.12852093546322133
+      },
+      {
+        "Feature": "Land_Area_Acres",
+        "Importance": 0.10986108113415109
+      },
+      {
+        "Feature": "Planned_Duration_Days",
+        "Importance": 0.10795970962943809
+      },
+      {
+        "Feature": "Number_of_Parcels",
+        "Importance": 0.07239763739459198
+      },
+      {
+        "Feature": "Affected_Families",
+        "Importance": 0.07053339082479278
+      },
+      {
+        "Feature": "Number_of_Owners",
+        "Importance": 0.06391185896791664
+      },
+      {
+        "Feature": "Objections_Received",
+        "Importance": 0.059053161736567814
+      },
+      {
+        "Feature": "Government_Clearances",
+        "Importance": 0.05755762875291418
+      },
+      {
+        "Feature": "Documents_Missing",
+        "Importance": 0.04549496945187759
+      },
+      {
+        "Feature": "Legal_Cases",
+        "Importance": 0.04163085178096895
+      },
+      {
+        "Feature": "Ownership_Disputes",
+        "Importance": 0.04074566332175885
+      },
+      {
+        "Feature": "Rehabilitation_Required_Yes",
+        "Importance": 0.027615385428883255
+      },
+      {
+        "Feature": "Previous_Acquisition_Delay_Yes",
+        "Importance": 0.021584935057704636
+      },
+      {
+        "Feature": "Compensation_Dispute_Yes",
+        "Importance": 0.01778587978509999
+      },
+      {
+        "Feature": "Location_Zone_Urban",
+        "Importance": 0.017230156338633975
+      },
+      {
+        "Feature": "Land_Type_Residential",
+        "Importance": 0.016886626030649672
+      },
+      {
+        "Feature": "Land_Type_Mixed",
+        "Importance": 0.01613234124082468
+      },
+      {
+        "Feature": "Project_Type_Road",
+        "Importance": 0.015977295241812902
+      },
+      {
+        "Feature": "Location_Zone_Semi-Urban",
+        "Importance": 0.015676914758722304
+      },
+      {
+        "Feature": "Project_Type_Housing",
+        "Importance": 0.014136101618047462
+      },
+      {
+        "Feature": "Project_Type_Railway",
+        "Importance": 0.013707142552119203
+      },
+      {
+        "Feature": "Land_Type_Commercial",
+        "Importance": 0.012964549229553266
+      },
+      {
+        "Feature": "Project_Type_Industrial",
+        "Importance": 0.012635784259749502
+      }
+    ]
+  },
+  "notebook_comparison_chart": {
+    "models": [
+      "Logistic Regression",
+      "Decision Tree",
+      "Random Forest"
+    ],
+    "accuracy": [
+      0.601,
+      0.553,
+      0.582
+    ]
+  },
+  "deployed_final_model": {
+    "algorithm": "LogisticRegression(max_iter=1000)",
+    "accuracy": 0.642,
+    "confusion_matrix": [
+      [
+        286,
+        187
+      ],
+      [
+        171,
+        356
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.6258205689277899,
+        "recall": 0.6046511627906976,
+        "f1-score": 0.6150537634408602,
+        "support": 473
+      },
+      "1": {
+        "precision": 0.6556169429097606,
+        "recall": 0.6755218216318786,
+        "f1-score": 0.6654205607476635,
+        "support": 527
+      },
+      "accuracy": 0.642,
+      "macro avg": {
+        "precision": 0.6407187559187753,
+        "recall": 0.6400864922112881,
+        "f1-score": 0.6402371620942618,
+        "support": 1000
+      },
+      "weighted avg": {
+        "precision": 0.6415232580162885,
+        "recall": 0.642,
+        "f1-score": 0.6415970656215455,
+        "support": 1000
+      }
+    },
+    "note": "Computed by this export script using the same evaluation method as the notebook (accuracy_score/confusion_matrix/classification_report), applied to the actual deployed final_model + new_scaler pipeline. Not a printed cell output in the original notebook."
+  },
+  "_ml_backend": "numpy_fallback"
+}

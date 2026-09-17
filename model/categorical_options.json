@@ -1,0 +1,50 @@
+{
+  "Project_Type": {
+    "options": [
+      "Airport",
+      "Housing",
+      "Industrial",
+      "Railway",
+      "Road"
+    ],
+    "base_category": "Airport"
+  },
+  "Location_Zone": {
+    "options": [
+      "Rural",
+      "Semi-Urban",
+      "Urban"
+    ],
+    "base_category": "Rural"
+  },
+  "Land_Type": {
+    "options": [
+      "Agricultural",
+      "Commercial",
+      "Mixed",
+      "Residential"
+    ],
+    "base_category": "Agricultural"
+  },
+  "Rehabilitation_Required": {
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "base_category": "No"
+  },
+  "Compensation_Dispute": {
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "base_category": "No"
+  },
+  "Previous_Acquisition_Delay": {
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "base_category": "No"
+  }
+}

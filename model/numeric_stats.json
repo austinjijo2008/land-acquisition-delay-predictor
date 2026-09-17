@@ -1,0 +1,68 @@
+{
+  "Land_Area_Acres": {
+    "min": 1.0,
+    "max": 150.0,
+    "mean": 39.922348,
+    "median": 34.375
+  },
+  "Number_of_Owners": {
+    "min": 1.0,
+    "max": 19.0,
+    "mean": 8.0388,
+    "median": 8.0
+  },
+  "Number_of_Parcels": {
+    "min": 3.0,
+    "max": 25.0,
+    "mean": 12.0572,
+    "median": 12.0
+  },
+  "Legal_Cases": {
+    "min": 0.0,
+    "max": 7.0,
+    "mean": 1.2056,
+    "median": 1.0
+  },
+  "Ownership_Disputes": {
+    "min": 0.0,
+    "max": 6.0,
+    "mean": 1.0796,
+    "median": 1.0
+  },
+  "Documents_Missing": {
+    "min": 0.0,
+    "max": 6.0,
+    "mean": 1.295,
+    "median": 1.0
+  },
+  "Objections_Received": {
+    "min": 0.0,
+    "max": 12.0,
+    "mean": 2.9542,
+    "median": 3.0
+  },
+  "Affected_Families": {
+    "min": 2.0,
+    "max": 27.0,
+    "mean": 12.069,
+    "median": 12.0
+  },
+  "Government_Clearances": {
+    "min": 1.0,
+    "max": 10.0,
+    "mean": 3.9498,
+    "median": 4.0
+  },
+  "Planned_Duration_Days": {
+    "min": 120.0,
+    "max": 743.0,
+    "mean": 364.9032,
+    "median": 365.0
+  },
+  "Approval_Days": {
+    "min": 15.0,
+    "max": 148.0,
+    "mean": 68.2146,
+    "median": 68.0
+  }
+}
