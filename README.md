@@ -121,7 +121,7 @@ Deployed model (final_model) test accuracy: 0.6xx
 
 - **Streamlit Community Cloud**: push this folder to a GitHub repo (including
   the `model/` folder — it's small — but NOT the raw CSV if it's sensitive),
-  then deploy at https://share.streamlit.io pointing at `app.py`.
+  then deploy at [https://share.streamlit.io](https://land-acquisition-delay-predicto.streamlit.app/) pointing at `app.py`.
 - **Any server/VM**: `pip install -r requirements.txt` then
   `streamlit run app.py --server.port 8501 --server.address 0.0.0.0`.
 - Regenerate `model/` with `train_and_export.py` any time the dataset changes
